@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600;700&display=swap');
+
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: url("../public/assets/img/background-profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.App::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+h1{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+}
+
+
+

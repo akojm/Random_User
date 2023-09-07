@@ -1,0 +1,60 @@
+.user-profile{
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 6%;
+    width: 400px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgb(0, 0 ,0, 0.4)0px 30px 90px;
+}
+.profile-top{
+    background:linear-gradient(to right, #8e2de2, #4a00e0) ;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.profile-top img{ 
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.profile-top .profile-info{
+    margin-top: 1rem;
+}
+
+.profile-bottom{
+    padding: 3rem 3rem 1rem 3rem;
+}
+.profile-bottom .profile-info{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50,93,0.24)0px 14px 27px -5px, rgba(0,0,0, 0.3)0px 8px 16px -8px;
+    transition: 0.5s ease;
+}
+.profile-bottom .profile-info .material-icons{
+   margin-right: 0.5rem;
+   color: gray; 
+}
+.profile-bottom .profile-info:hover{
+    box-shadow: rgba(60,64, 67, 0.3) 0px 1px 3px 0px, rgba(60,64,67,0.15) 0px 1px 3px 1px;
+}
+button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.5s ease;  
+}
+button:hover{
+    color: white;
+    background:linear-gradient(to right, #8e2de2, #4a00e0) ;
+
+}
